@@ -1,0 +1,66 @@
+.table-fixed thead {
+  width: 100%;
+}
+.table-fixed tbody {
+  height: 100px;
+  overflow-y: auto;
+  width: 100%;
+}
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+h2.ex1 {
+    margin-top: 25px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+b.ex1 {
+    margin-top: 25px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: -.05rem;
+}
+
+p.ex1 {
+    margin-top: 25px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: -.05rem;
+}
+form{
+    padding: 3px;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #FB0337FF;
+    border-radius: 4px;
+}
+
+
+input[type=submit]{
+    width: 15%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: #FB0337FF;
+    color: white;
+}
+
+button[type=submit]{
+    width: auto;
+    padding: 12px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: #FB0337FF;
+    color: white;
+}

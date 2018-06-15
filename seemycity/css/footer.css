@@ -1,0 +1,17 @@
+.footer {
+   /*border : 2px solid;*/
+   /*background-image: url("/Applications/MAMP/htdocs/ui/img/head.png");
+   background-image: url("/img/head.png");
+   */
+   background-image: url("../img/footer.png");
+   position: fixed;
+   z-index: 3; /* livello superiore al sito */
+   left: 0px;
+   bottom: 0px;
+   height: 30px;
+   width: 100%; 
+   color : black;
+   text-align: center; 
+   padding-bottom: 20px;
+   font-size: 12pt;
+}

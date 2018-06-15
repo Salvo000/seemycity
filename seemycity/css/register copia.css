@@ -1,0 +1,81 @@
+h2.ex1 {
+    margin-top: 25px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+b.ex1 {
+    margin-top: 25px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: -.05rem;
+}
+
+p.ex1 {
+    margin-top: 25px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: -.05rem;
+}
+
+div.center {
+    margin: auto;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    width: 50%;
+    border: 2px solid #1E90FF;
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+form{
+    padding: 2px;
+}
+
+.new-account
+{
+    display: block;
+    margin-top: 1px;
+    text-decoration: underline;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #1E90FF;
+    border-radius: 4px;
+}
+
+input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #1E90FF;
+    border-radius: 4px;
+}
+
+input[type=submit]{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 4px;
+    background-color: #1E90FF;
+    color: white;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #D3D3D3;
+   color: black;
+   text-align: center;
+}

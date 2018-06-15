@@ -1,0 +1,52 @@
+.header{
+    /*background-image: url("img/head.png");*/
+    /*background-image: url("/Applications/MAMP/htdocs/ui/img/head.png");
+    background-image: url("/img/head.png");*/
+    
+    position: fixed;/* elemento fisso, non segue lo scroll */
+    z-index: 2; /* livello superiore al sito */
+    top: 0; /* distanza dal margine superiore */
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 70px; /* altezza elemento */
+    width: 100%;/* larghezza elemento */
+    color: white; /*#e67300;*/  /*dark orange*/
+}
+
+.header table{
+  background-image: url("../img/head.png");
+  background-size: 100%; 
+  /*border: 2px solid black;*/
+  width: 100%;
+  height:100%;
+}
+.header td{
+  padding-top: 10px;
+  /*text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;*/
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.header a{font-size: 80px}
+.header a:focus, .header a:visited  { /*text-decoration: none;*/color: white; /*#e67300*/ /*dark orange*/ }
+.header a:hover, .header a:active { /*text-decoration: none;*/ color:black /* o in caso white*/ }
+
+#profilo{
+  text-align: left;
+}
+
+#chat{
+  text-align: left;
+}
+
+#ricerca{ 
+  text-align: left; 
+  font-size: 40px;
+  color: white; /*dark orange*/
+}
+#labricerca{
+    text-align: left;
+    width: 80%;
+    height: 45px;  
+    border-bottom: 2px solid black;
+}

@@ -1,0 +1,60 @@
+html,
+
+body {
+  height: 100%;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+label{
+    color:white;
+}
+
+h1.padding {
+    padding-top: 0.7cm;
+}
+
+.featurette-divider {
+  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+.div-top{
+    background-image: url("http://s1.picswalls.com/wallpapers/2016/06/10/4k-desktop-wallpapers_065227936_309.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 150%;
+}
+
+p.ex1 {
+    margin-top: 25px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+h3.ex2 {
+    margin-top: 25px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
