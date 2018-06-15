@@ -1,2 +1,4 @@
 # seemycity
-A database projects based on a idea of visit a city
+A database project based on a idea of https://www.visitacity.com/
+AMP package was used
+A work of me and @Massimo Righi
